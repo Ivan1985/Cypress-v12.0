@@ -26,7 +26,6 @@ describe('Side Menu', function () {
         cy.get(".bm-menu-wrap")
             .invoke('attr', 'aria-hidden')
             .should('eql', 'true')
-            // test commit
     });
 
 });
