@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-29T09:53:45.242Z",
+    "end": "2022-12-29T09:53:50.054Z",
+    "duration": 4812,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "33f7dc4f-894b-46e5-a481-76a2b7cc9846",
+      "title": "",
+      "fullFile": "cypress\\e2e\\productsPage\\checkAddToCart.cy.js",
+      "file": "cypress\\e2e\\productsPage\\checkAddToCart.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b69920b9-3955-4ac4-afab-4060f015eba8",
+          "title": "Products Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1. Verify Adding Item to Cart",
+              "fullTitle": "Products Page 1. Verify Adding Item to Cart",
+              "timedOut": null,
+              "duration": 1332,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(_Products.ProductItems.constAddToCartBackpack).click().then(() => {\n  cy.get(_Header.ShopingCartBadge.constShoppingCartBadge).should('be.visible');\n});",
+              "err": {},
+              "uuid": "c69a280f-e011-4a5e-8d91-bb965fc76bae",
+              "parentUUID": "b69920b9-3955-4ac4-afab-4060f015eba8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "2. Adding All Items to Cart",
+              "fullTitle": "Products Page 2. Adding All Items to Cart",
+              "timedOut": null,
+              "duration": 1714,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addToCart(_Products.ProductItems.constAddToCartBackpack);\ncy.addToCart(_Products.ProductItems.constAddToCartTShirt);\ncy.addToCart(_Products.ProductItems.constAddToCartOnesie);\ncy.addToCart(_Products.ProductItems.constAddToCartBikeLight);\ncy.addToCart(_Products.ProductItems.constAddToCartFleeceJacket);\ncy.addToCart(_Products.ProductItems.constAddToCartTShirtRed);",
+              "err": {},
+              "uuid": "5085d6eb-82ae-4e86-b92e-49fe4d0d00e1",
+              "parentUUID": "b69920b9-3955-4ac4-afab-4060f015eba8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "3. Remove Item from Cart",
+              "fullTitle": "Products Page 3. Remove Item from Cart",
+              "timedOut": null,
+              "duration": 856,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "5361e3a0-110f-4980-8a0c-cd400d09887d",
+              "parentUUID": "b69920b9-3955-4ac4-afab-4060f015eba8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "4. Check Dropdown menu",
+              "fullTitle": "Products Page 4. Check Dropdown menu",
+              "timedOut": null,
+              "duration": 859,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "6d2ef828-616b-4d1c-8fa4-bbbd9c5356c4",
+              "parentUUID": "b69920b9-3955-4ac4-afab-4060f015eba8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c69a280f-e011-4a5e-8d91-bb965fc76bae",
+            "5085d6eb-82ae-4e86-b92e-49fe4d0d00e1",
+            "5361e3a0-110f-4980-8a0c-cd400d09887d",
+            "6d2ef828-616b-4d1c-8fa4-bbbd9c5356c4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4761,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\report\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

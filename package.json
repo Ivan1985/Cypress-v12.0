@@ -1,0 +1,16 @@
+{
+  "name": "cypress-v12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Ivan Ignjatovic",
+  "license": "ISC",
+  "scripts": {
+    "test": "run all tests",
+    "cy:run": "cypress run --reporter cypress-mochawesome-reporter"
+  },
+  "devDependencies": {
+    "cypress": "^12.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
