@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-12-29T09:41:51.982Z",
-    "end": "2022-12-29T09:41:53.767Z",
-    "duration": 1785,
+    "start": "2023-01-04T22:14:07.267Z",
+    "end": "2023-01-04T22:14:09.060Z",
+    "duration": 1793,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "4300f0be-3380-4f7a-b151-533352eab760",
+      "uuid": "0088ca16-4e04-4e9b-9ace-eb81790d29c7",
       "title": "",
       "fullFile": "cypress\\e2e\\sideMenu\\checkSideMenu.cy.js",
       "file": "cypress\\e2e\\sideMenu\\checkSideMenu.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "36744027-0e73-4e5b-9045-e70658f1a23e",
+          "uuid": "9129188b-5581-4b64-b0f3-36e15189cd95",
           "title": "Side Menu",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "1. Verify Side Menu Items",
               "fullTitle": "Side Menu 1. Verify Side Menu Items",
               "timedOut": null,
-              "duration": 1722,
+              "duration": 1732,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.loginUser(standardUser.username, standardUser.password);\ncy.get(_Products.ProductTitle.constProductTitle).contains(_constProducts.productTitle.title);\ncy.get(_Header.SideMenuButton.constMenuButton).click();\ncy.sideMenuItems();\ncy.get(\".bm-cross-button\").click();\ncy.get(\".bm-menu-wrap\").invoke('attr', 'aria-hidden').should('eql', 'true');",
               "err": {},
-              "uuid": "0ff13704-fd08-44c9-92bf-92560e05bee8",
-              "parentUUID": "36744027-0e73-4e5b-9045-e70658f1a23e",
+              "uuid": "1f60a26a-a6a6-4fdf-8270-234dafa4d934",
+              "parentUUID": "9129188b-5581-4b64-b0f3-36e15189cd95",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0ff13704-fd08-44c9-92bf-92560e05bee8"
+            "1f60a26a-a6a6-4fdf-8270-234dafa4d934"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1722,
+          "duration": 1732,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

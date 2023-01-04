@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-12-29T09:41:44.027Z",
-    "end": "2022-12-29T09:41:46.020Z",
-    "duration": 1993,
+    "start": "2023-01-04T22:13:57.906Z",
+    "end": "2023-01-04T22:14:00.069Z",
+    "duration": 2163,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "da1a749c-2418-49c4-b672-ef6e4629e376",
+      "uuid": "f5eb750a-91e8-4535-8963-987a51e97bac",
       "title": "",
       "fullFile": "cypress\\e2e\\authentication\\login.cy.js",
       "file": "cypress\\e2e\\authentication\\login.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3e2d296a-71f2-43cc-aa1d-ce6a63d4ae6f",
+          "uuid": "e8c72326-aa11-4f22-9bf4-48fcaa9bb7c1",
           "title": "Login Page suite",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "1. Login with empty username and password",
               "fullTitle": "Login Page suite 1. Login with empty username and password",
               "timedOut": null,
-              "duration": 1001,
+              "duration": 997,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.get('[data-test=\"login-button\"]').click();\ncy.get('[data-test=\"error\"]').should('have.text', _constLogIn.loginPageErrors.epmtyFieldsError);",
               "err": {},
-              "uuid": "2e6af3ff-75f3-42aa-84c6-41f3340fc1d9",
-              "parentUUID": "3e2d296a-71f2-43cc-aa1d-ce6a63d4ae6f",
+              "uuid": "1b8f8c0b-7a1b-45b3-8ac7-7561491f6e2e",
+              "parentUUID": "e8c72326-aa11-4f22-9bf4-48fcaa9bb7c1",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "2. Login succesufully",
               "fullTitle": "Login Page suite 2. Login succesufully",
               "timedOut": null,
-              "duration": 930,
+              "duration": 982,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.get('[data-test=\"username\"]').type('standard_user');\ncy.get('[data-test=\"password\"]').type('secret_sauce');\ncy.get('[data-test=\"login-button\"]').click();\ncy.get('.title').contains('Products');",
               "err": {},
-              "uuid": "affae085-64a5-441b-b2c3-eee669aebd3c",
-              "parentUUID": "3e2d296a-71f2-43cc-aa1d-ce6a63d4ae6f",
+              "uuid": "5a3c7f37-275b-41b5-b376-435a306809a3",
+              "parentUUID": "e8c72326-aa11-4f22-9bf4-48fcaa9bb7c1",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2e6af3ff-75f3-42aa-84c6-41f3340fc1d9",
-            "affae085-64a5-441b-b2c3-eee669aebd3c"
+            "1b8f8c0b-7a1b-45b3-8ac7-7561491f6e2e",
+            "5a3c7f37-275b-41b5-b376-435a306809a3"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1931,
+          "duration": 1979,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
