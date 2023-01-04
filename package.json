@@ -6,8 +6,7 @@
   "author": "Ivan Ignjatovic",
   "license": "ISC",
   "scripts": {
-    "test": "run all tests",
-    "cy:run": "cypress run --reporter cypress-mochawesome-reporter",
+    "cy:run:mochawesome": "cypress run --reporter cypress-mochawesome-reporter",
     "cy:run:cloud": "cypress run --record --key 26dd887e-f44a-4332-b29a-1077481f3abb"
   },
   "devDependencies": {
