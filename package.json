@@ -11,7 +11,25 @@
     "cy:run:cloud": "cypress run --record --key 26dd887e-f44a-4332-b29a-1077481f3abb"
   },
   "devDependencies": {
-    "cypress": "^12.2.0",
-    "cypress-mochawesome-reporter": "^3.2.3"
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@cypress/webpack-preprocessor": "^5.16.1",
+    "babel-loader": "^9.1.2",
+    "cypress": "^12.3.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "esbuild": "^0.16.17",
+    "webpack": "^5.75.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "esbuild": "^0.16.17"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/step_definitions/*.js"
   }
 }
