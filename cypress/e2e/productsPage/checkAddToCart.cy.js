@@ -5,8 +5,8 @@ const lockedOutUser = Cypress.env('lockedOutUser')
 
 // POM
 // import { LogIn } from '../../support/pom-objects/LogIn.cy'
-import { ProductItems } from '../../support/pom-objects/Products.cy'
-import { ShopingCartBadge } from '../../support/pom-objects/Header.cy'
+import { ProductItems } from '../../support/pom-objects/Products.cy.js'
+import { ShopingCartBadge } from '../../support/pom-objects/Header.cy.js'
 
 describe('Products Page', function () {
 
