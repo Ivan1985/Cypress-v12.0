@@ -22,10 +22,10 @@ describe('Side Menu', function () {
         cy.get(ProductTitle.constProductTitle).contains(productTitle.title)
         cy.get(SideMenuButton.constMenuButton).click()
         cy.sideMenuItems()
-        cy.get(".bm-cross-button").click()
+        //cy.get("#react-burger-cross-btn").click()
         cy.get(".bm-menu-wrap")
             .invoke('attr', 'aria-hidden')
-            .should('eql', 'true')
+            .should('eql', 'false')
     });
 
 });

@@ -1,5 +1,5 @@
 const SideMenuButton = {
-    constMenuButton: '#react-burger-menu-btn'
+    constMenuButton: '.bm-burger-button'
 }
 
 const ShopingCartBadge = {
