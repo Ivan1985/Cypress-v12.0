@@ -3,7 +3,7 @@
 const standardUser = Cypress.env('standardUser')
 const lockedOutUser = Cypress.env('lockedOutUser')
 
-// Fixtures
+// POM Objects
 import { LogIn } from '../../support/pom-objects/LogIn.cy'
 
 describe('Logout Page suite', function () {
