@@ -11,7 +11,7 @@ const ProductTitle = {
     constProductTitle: '.title'
 }
 
-export default { ProductItems, ProductTitle } 
+export { ProductItems, ProductTitle } 
 
 // In Products.cy.js
 export const ProductItemsCucumber = {

@@ -26,7 +26,7 @@ module.exports = defineConfig({
       await addCucumberPreprocessorPlugin(on, config);
       return config;
     },
-    specPattern: 'cypress/features/*.feature',
+    //specPattern: 'cypress/features/*.feature',
     baseUrl: 'https://www.saucedemo.com/',
     viewportHeight: 1000,
     viewportWidth: 1280,
