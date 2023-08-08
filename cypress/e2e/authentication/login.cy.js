@@ -15,7 +15,7 @@ describe('Login Page suite', function () {
     });
 
     it('2. Login succesufully', function () {
-        cy.get('[data-test="username"]').type('standard_user')
+        cy.get('[data-test="usernamekljlkj"]').type('standard_user')
         cy.get('[data-test="password"]').type('secret_sauce')
         cy.get('[data-test="login-button"]').click()
         cy.get('.title').contains('Products')
