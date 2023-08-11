@@ -1,4 +1,4 @@
-const ProductItems = {
+export const ProductItems = {
     constAddToCartBackpack: '[data-test="add-to-cart-sauce-labs-backpack"]',
     constAddToCartTShirt: '[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]',
     constAddToCartOnesie: '[data-test="add-to-cart-sauce-labs-onesie"]',
@@ -7,18 +7,18 @@ const ProductItems = {
     constAddToCartTShirtRed: '[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]'
 }
 
-const ProductTitle = {
+export const ProductTitle = {
     constProductTitle: '.title'
 }
 
-export { ProductItems, ProductTitle } 
+// export { ProductItems, ProductTitle } 
 
-// In Products.cy.js
-export const ProductItemsCucumber = {
-    constAddToCartBackpack: '[data-test="add-to-cart-sauce-labs-backpack"]',
-    constAddToCartTShirt: '[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]',
-    constAddToCartOnesie: '[data-test="add-to-cart-sauce-labs-onesie"]',
-    constAddToCartBikeLight: '[data-test="add-to-cart-sauce-labs-bike-light"]',
-    constAddToCartFleeceJacket: '[data-test="add-to-cart-sauce-labs-fleece-jacket"]',
-    constAddToCartTShirtRed: '[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]'
-};
+// // In Products.cy.js
+// export const ProductItemsCucumber = {
+//     constAddToCartBackpack: '[data-test="add-to-cart-sauce-labs-backpack"]',
+//     constAddToCartTShirt: '[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]',
+//     constAddToCartOnesie: '[data-test="add-to-cart-sauce-labs-onesie"]',
+//     constAddToCartBikeLight: '[data-test="add-to-cart-sauce-labs-bike-light"]',
+//     constAddToCartFleeceJacket: '[data-test="add-to-cart-sauce-labs-fleece-jacket"]',
+//     constAddToCartTShirtRed: '[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]'
+// };
